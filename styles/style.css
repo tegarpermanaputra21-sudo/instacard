@@ -6,7 +6,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #0090fe;
+  background-color: #161616;
   height: 100%;
 }
 main {
@@ -78,6 +78,7 @@ main {
   aspect-ratio: 1 / 1;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 .bottom-card {
   display: flex;
