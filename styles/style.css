@@ -25,36 +25,65 @@ main {
   background-color: #fff;
   border-radius: 10px;
 }
+.card p,
+.card i {
+  font-size: 14px;
+}
+.card button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
 .top-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px;
+  padding: 12px 20px;
 }
-.top-left a {
+.top-card .top-left a {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
+  color: #000;
 }
-.top-left img {
+.top-card .top-left img {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   object-fit: cover;
 }
+.top-card .top-right button i {
+  color: #7f7e7e;
+  font-size: 16px;
+  cursor: pointer;
+}
 .middle-card {
   width: 100%;
   aspect-ratio: 1 / 1;
 }
-
 .middle-card .post-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 .bottom-card {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+.bottom-card .bottom-left {
+  width: 100px;
+  height: 20px;
+  background-color: #bdbdbd;
+  border-radius: 12px;
+}
+.bottom-card .bottom-right {
+  display: flex;
+  gap: 15px;
+}
+.bottom-card .bottom-right button i {
+  font-size: 20px;
+  color: #7f7e7e;
+  cursor: pointer;
 }
