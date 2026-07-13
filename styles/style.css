@@ -73,12 +73,9 @@ main {
   font-size: 16px;
   cursor: pointer;
 }
-.middle-card {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-}
 .middle-card .post-img {
   width: 100%;
+  aspect-ratio: 1 / 1;
   height: 100%;
   object-fit: cover;
 }
