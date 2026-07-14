@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Oceanside Typewriter";
+  src: url("fonts/Oceanside Typewriter.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +12,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #161616;
+  background-color: #1a1a1d;
   height: 100%;
 }
 main {
@@ -25,9 +31,10 @@ main {
   margin-bottom: 10px;
 }
 .title h1 {
+  font-family: "Oceanside Typewriter", sans-serif;
   display: inline;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 3rem;
   font-weight: 400;
   border-bottom: 2px solid #fff;
   padding-bottom: 4px;
